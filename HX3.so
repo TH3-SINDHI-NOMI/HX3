@@ -1,0 +1,5 @@
+import platform
+if platform.architecture()[0] == '64bit':
+    import HX3
+else:
+    print('Failed To Import HX3 Please Use 64 Bit System')
